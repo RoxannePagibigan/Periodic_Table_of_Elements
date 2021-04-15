@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width: 970px;
+    height: auto;
+    background-color: #EEEEEE;
+    padding: 25px 30px 5px 20px;
+}
+
+
+.top .horizontal{
+    font-size: 13px;
+    margin-left: 35px;
+}
+
+.horizontal p{
+    color: red;
+    text-align: left;
+    word-spacing: 34px;
+
+}
+
+.vertical{
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 35px;
+    list-style: none;
+    font-size: 14px;
+    margin: 10px -5px 10px 25px;
+}
+
+.vertical p{
+    color: red;
+    font-size: 13px;
+}
+
+.left-side{
+    display: inline-block;
+    margin-left: 27px;
+}
+
+.blue {
+    display: grid;
+    grid-template-columns: 45px 45px;
+    grid-column-gap: 2px;
+    grid-row-gap: 1px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.blue-grid {
+    background-color: #689BFF;
+    border: 1px solid #808080;
+    padding: 5px;
+}
+
+.blue p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.middle{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: -20px;
+}
+
+.coral {
+    display: grid;
+    grid-template-columns: 45px 45px 45px 45px 45px 45px 45px 45px 45px 45px;
+    grid-column-gap: 2px;
+    grid-row-gap: 1px;
+    padding: 10px;
+}
+
+.coral-grid {
+    background-color: #FD9A98;
+    border: 1px solid #808080;
+    padding: 5px;
+}
+
+.coral p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.right-side{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: -22px
+}
+
+.mustard {
+    display: grid;
+    grid-template-columns: 45px 45px 45px 45px 45px;
+    grid-column-gap: 2px;
+    grid-row-gap: 1px;
+    padding: 10px;
+}
+
+.mustard-grid {
+    background-color: #FECB00;
+    border: 1px solid #808080;
+    padding: 5px;
+}
+
+.mustard p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.right-side2{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: -23px;
+}
+
+.mustard2 {
+    display: grid;
+    grid-template-columns: 45px;
+    grid-column-gap: 2px;
+    grid-row-gap: 1px;
+    padding: 10px;
+    grid-column-start: auto;
+    grid-row-start: auto;
+}
+
+.mustard-grid2 {
+    background-color: #FECB00;
+    border: 1px solid #808080;
+    padding: 5px;
+}
+
+.mustard2 p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.bottom .text p{
+    font-size: 11px;
+    color: red;
+    margin: 20px 5px auto 85px;
+    word-spacing: 30px;
+}
+
+.green {
+    display: grid;
+    grid-template-columns: 45px 45px 45px 45px 45px 45px 45px 45px 45px 45px 45px 45px 45px 45px;
+    grid-column-gap: 2px;
+    grid-row-gap: 1px;
+    padding: 10px;
+    margin: -100px auto auto 174px;
+}
+
+.green-grid {
+    background-color: #1FCA21;
+    border: 1px solid #808080;
+    padding: 5px;
+}
+
+.green-grid p{
+    font-size: 10px;
+    text-align: center;
+}
